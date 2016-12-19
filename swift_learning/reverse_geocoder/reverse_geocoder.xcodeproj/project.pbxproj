@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88D754201DEC076B0015539C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D7541F1DEC076B0015539C /* AppDelegate.swift */; };
+		88D754221DEC076B0015539C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D754211DEC076B0015539C /* ViewController.swift */; };
+		88D754251DEC076B0015539C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D754231DEC076B0015539C /* Main.storyboard */; };
+		88D754271DEC076B0015539C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88D754261DEC076B0015539C /* Assets.xcassets */; };
+		88D7542A1DEC076B0015539C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D754281DEC076B0015539C /* LaunchScreen.storyboard */; };
+		88D754351DEC076B0015539C /* reverse_geocoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D754341DEC076B0015539C /* reverse_geocoderTests.swift */; };
+		88D754401DEC076B0015539C /* reverse_geocoderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D7543F1DEC076B0015539C /* reverse_geocoderUITests.swift */; };
+		88D7544F1DEC0BB60015539C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D7544E1DEC0BB60015539C /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88D754311DEC076B0015539C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88D754141DEC076B0015539C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88D7541B1DEC076B0015539C;
+			remoteInfo = reverse_geocoder;
+		};
+		88D7543C1DEC076B0015539C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88D754141DEC076B0015539C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88D7541B1DEC076B0015539C;
+			remoteInfo = reverse_geocoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88D7541C1DEC076B0015539C /* reverse_geocoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reverse_geocoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D7541F1DEC076B0015539C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88D754211DEC076B0015539C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88D754241DEC076B0015539C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88D754261DEC076B0015539C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88D754291DEC076B0015539C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88D7542B1DEC076B0015539C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88D754301DEC076B0015539C /* reverse_geocoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reverse_geocoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D754341DEC076B0015539C /* reverse_geocoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverse_geocoderTests.swift; sourceTree = "<group>"; };
+		88D754361DEC076B0015539C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88D7543B1DEC076B0015539C /* reverse_geocoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reverse_geocoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D7543F1DEC076B0015539C /* reverse_geocoderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverse_geocoderUITests.swift; sourceTree = "<group>"; };
+		88D754411DEC076B0015539C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88D7544E1DEC0BB60015539C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88D754191DEC076B0015539C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D7544F1DEC0BB60015539C /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D7542D1DEC076B0015539C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D754381DEC076B0015539C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88D754131DEC076B0015539C = {
+			isa = PBXGroup;
+			children = (
+				88D7541E1DEC076B0015539C /* reverse_geocoder */,
+				88D754331DEC076B0015539C /* reverse_geocoderTests */,
+				88D7543E1DEC076B0015539C /* reverse_geocoderUITests */,
+				88D7541D1DEC076B0015539C /* Products */,
+				88D7544D1DEC0BB50015539C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88D7541D1DEC076B0015539C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88D7541C1DEC076B0015539C /* reverse_geocoder.app */,
+				88D754301DEC076B0015539C /* reverse_geocoderTests.xctest */,
+				88D7543B1DEC076B0015539C /* reverse_geocoderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88D7541E1DEC076B0015539C /* reverse_geocoder */ = {
+			isa = PBXGroup;
+			children = (
+				88D7541F1DEC076B0015539C /* AppDelegate.swift */,
+				88D754211DEC076B0015539C /* ViewController.swift */,
+				88D754231DEC076B0015539C /* Main.storyboard */,
+				88D754261DEC076B0015539C /* Assets.xcassets */,
+				88D754281DEC076B0015539C /* LaunchScreen.storyboard */,
+				88D7542B1DEC076B0015539C /* Info.plist */,
+			);
+			path = reverse_geocoder;
+			sourceTree = "<group>";
+		};
+		88D754331DEC076B0015539C /* reverse_geocoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				88D754341DEC076B0015539C /* reverse_geocoderTests.swift */,
+				88D754361DEC076B0015539C /* Info.plist */,
+			);
+			path = reverse_geocoderTests;
+			sourceTree = "<group>";
+		};
+		88D7543E1DEC076B0015539C /* reverse_geocoderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88D7543F1DEC076B0015539C /* reverse_geocoderUITests.swift */,
+				88D754411DEC076B0015539C /* Info.plist */,
+			);
+			path = reverse_geocoderUITests;
+			sourceTree = "<group>";
+		};
+		88D7544D1DEC0BB50015539C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88D7544E1DEC0BB60015539C /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88D7541B1DEC076B0015539C /* reverse_geocoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88D754441DEC076B0015539C /* Build configuration list for PBXNativeTarget "reverse_geocoder" */;
+			buildPhases = (
+				88D754181DEC076B0015539C /* Sources */,
+				88D754191DEC076B0015539C /* Frameworks */,
+				88D7541A1DEC076B0015539C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = reverse_geocoder;
+			productName = reverse_geocoder;
+			productReference = 88D7541C1DEC076B0015539C /* reverse_geocoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88D7542F1DEC076B0015539C /* reverse_geocoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88D754471DEC076B0015539C /* Build configuration list for PBXNativeTarget "reverse_geocoderTests" */;
+			buildPhases = (
+				88D7542C1DEC076B0015539C /* Sources */,
+				88D7542D1DEC076B0015539C /* Frameworks */,
+				88D7542E1DEC076B0015539C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88D754321DEC076B0015539C /* PBXTargetDependency */,
+			);
+			name = reverse_geocoderTests;
+			productName = reverse_geocoderTests;
+			productReference = 88D754301DEC076B0015539C /* reverse_geocoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88D7543A1DEC076B0015539C /* reverse_geocoderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88D7544A1DEC076B0015539C /* Build configuration list for PBXNativeTarget "reverse_geocoderUITests" */;
+			buildPhases = (
+				88D754371DEC076B0015539C /* Sources */,
+				88D754381DEC076B0015539C /* Frameworks */,
+				88D754391DEC076B0015539C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88D7543D1DEC076B0015539C /* PBXTargetDependency */,
+			);
+			name = reverse_geocoderUITests;
+			productName = reverse_geocoderUITests;
+			productReference = 88D7543B1DEC076B0015539C /* reverse_geocoderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88D754141DEC076B0015539C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Patsy Iturbe Villegas";
+				TargetAttributes = {
+					88D7541B1DEC076B0015539C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					88D7542F1DEC076B0015539C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 88D7541B1DEC076B0015539C;
+					};
+					88D7543A1DEC076B0015539C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 88D7541B1DEC076B0015539C;
+					};
+				};
+			};
+			buildConfigurationList = 88D754171DEC076B0015539C /* Build configuration list for PBXProject "reverse_geocoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88D754131DEC076B0015539C;
+			productRefGroup = 88D7541D1DEC076B0015539C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88D7541B1DEC076B0015539C /* reverse_geocoder */,
+				88D7542F1DEC076B0015539C /* reverse_geocoderTests */,
+				88D7543A1DEC076B0015539C /* reverse_geocoderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88D7541A1DEC076B0015539C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D7542A1DEC076B0015539C /* LaunchScreen.storyboard in Resources */,
+				88D754271DEC076B0015539C /* Assets.xcassets in Resources */,
+				88D754251DEC076B0015539C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D7542E1DEC076B0015539C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D754391DEC076B0015539C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88D754181DEC076B0015539C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D754221DEC076B0015539C /* ViewController.swift in Sources */,
+				88D754201DEC076B0015539C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D7542C1DEC076B0015539C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D754351DEC076B0015539C /* reverse_geocoderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D754371DEC076B0015539C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D754401DEC076B0015539C /* reverse_geocoderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88D754321DEC076B0015539C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88D7541B1DEC076B0015539C /* reverse_geocoder */;
+			targetProxy = 88D754311DEC076B0015539C /* PBXContainerItemProxy */;
+		};
+		88D7543D1DEC076B0015539C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88D7541B1DEC076B0015539C /* reverse_geocoder */;
+			targetProxy = 88D7543C1DEC076B0015539C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88D754231DEC076B0015539C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88D754241DEC076B0015539C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88D754281DEC076B0015539C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88D754291DEC076B0015539C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88D754421DEC076B0015539C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88D754431DEC076B0015539C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88D754451DEC076B0015539C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = reverse_geocoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.startbluesoft.reverse-geocoder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		88D754461DEC076B0015539C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = reverse_geocoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.startbluesoft.reverse-geocoder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		88D754481DEC076B0015539C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = reverse_geocoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.startbluesoft.reverse-geocoderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reverse_geocoder.app/reverse_geocoder";
+			};
+			name = Debug;
+		};
+		88D754491DEC076B0015539C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = reverse_geocoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.startbluesoft.reverse-geocoderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reverse_geocoder.app/reverse_geocoder";
+			};
+			name = Release;
+		};
+		88D7544B1DEC076B0015539C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = reverse_geocoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.startbluesoft.reverse-geocoderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = reverse_geocoder;
+			};
+			name = Debug;
+		};
+		88D7544C1DEC076B0015539C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = reverse_geocoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.startbluesoft.reverse-geocoderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = reverse_geocoder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88D754171DEC076B0015539C /* Build configuration list for PBXProject "reverse_geocoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88D754421DEC076B0015539C /* Debug */,
+				88D754431DEC076B0015539C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88D754441DEC076B0015539C /* Build configuration list for PBXNativeTarget "reverse_geocoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88D754451DEC076B0015539C /* Debug */,
+				88D754461DEC076B0015539C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88D754471DEC076B0015539C /* Build configuration list for PBXNativeTarget "reverse_geocoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88D754481DEC076B0015539C /* Debug */,
+				88D754491DEC076B0015539C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88D7544A1DEC076B0015539C /* Build configuration list for PBXNativeTarget "reverse_geocoderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88D7544B1DEC076B0015539C /* Debug */,
+				88D7544C1DEC076B0015539C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88D754141DEC076B0015539C /* Project object */;
+}
